@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="312dp"
+        android:layout_height="95dp"
+        android:layout_marginEnd="-330dp"
+        android:layout_marginBottom="544dp"
+        android:src="@drawable/personal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="341dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="341dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="183dp"
+        android:src="@drawable/line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="83dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:text="INFO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="102dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/tongue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/infoscript2"
+        android:layout_width="176dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="고양이 혀, 사실은 뜨거운 음식을 잘 못 먹는다?"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/infoscript3"
+        android:layout_width="159dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="새끼 고양이 몇 주 정도 됐을까? 돌보는 방법은?"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="107dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/kitty"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="87sp"
+        android:layout_height="87sp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/teeth"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/infoscript1"
+        android:layout_width="159dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="고양이 양치 언제부터? 양치질 방법과 Tip!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
